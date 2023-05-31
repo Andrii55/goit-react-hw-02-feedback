@@ -1,0 +1,9 @@
+.section {
+  padding: 10px;
+  background-color: beige;
+}
+
+.containner {
+  width: 1200px;
+  margin: 0 auto;
+}

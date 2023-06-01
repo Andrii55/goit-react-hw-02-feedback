@@ -12,9 +12,15 @@ export const Fidbek = () => {
       <div>
         <h2 className={css.title}>Statistics</h2>
         <ul>
-          <p className={css.items}>Good:</p>
-          <p className={css.items}>Neutral:</p>
-          <p className={css.items}>Bad:</p>
+          <li>
+            <p className={css.items}>Good:</p>
+          </li>
+          <li>
+            <p className={css.items}>Neutral:</p>
+          </li>
+          <li>
+            <p className={css.items}>Bad:</p>
+          </li>
         </ul>
       </div>
     </div>

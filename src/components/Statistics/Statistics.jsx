@@ -1,4 +1,4 @@
-import css from '../Fidbek/Fidbek.module.css';
+import css from './Statistics.module.css';
 export const Statistics = ({
   good,
   neutral,
@@ -7,7 +7,7 @@ export const Statistics = ({
   positivePercentage,
 }) => {
   return (
-    <div>
+    <div className={css.container}>
       <h2 className={css.title}>Statistics</h2>
       <ul>
         <li>
@@ -20,10 +20,10 @@ export const Statistics = ({
           <p className={css.items}>Bad: {bad}</p>
         </li>
         <li>
-          <p>total: {total}</p>
+          <p className={css.items}>total: {total}</p>
         </li>
         <li>
-          <p>Positive feedback: {positivePercentage}%</p>
+          <p className={css.items}>Positive feedback: {positivePercentage}%</p>
         </li>
       </ul>
     </div>
